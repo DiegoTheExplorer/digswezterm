@@ -1,6 +1,9 @@
 local wezterm = require("wezterm")
 local config = {}
 
+-- Shell Config
+config.default_prog = { "powershell.exe" }
+
 -- Color Scheme Config
 config.color_scheme = "Catppuccin Mocha"
 
